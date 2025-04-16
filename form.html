@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+      <label>Name</label>
+       <input type= "text" name= " Name" class= "form-control" placeholder="Enter your name"><br><br>
+       <label>Email</label>
+       <input type="email" name="email"class="form-control" placeholder="Enter your email"><br><br>
+       <label>Password</label>
+       <input type="password" password="password" class="form-control" placeholder="Enter your password"><br><br>
+        </fieldset><br><br>
+        <fieldset>
+       Gender: <br>
+       <input type="radio" id="male" name="gender" value="Male" required>
+       <label>Male</label>
+
+       <input type="radio" id="female"name="gender" value="Female" required>
+       <label>Female</label>
+       
+       <input type="radio" name="gender" value="other" checked> Other<br>
+    </fieldset><br><br>
+    <fieldset>
+        Interests: <br>
+        <input type="checkbox" name="Interest" value="developer"> Backend Developer<br>
+       <input type="checkbox" name="Interest" value="developer"> Frontend Developer<br>
+    </fieldset>
+    <fieldset>
+        <label for="Country">Select Country</label>
+        <select name="Country"><br>
+        <option value="Zanzibar">Zanzibar</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        </select>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <label for="Profile">Choose Image</label><br><br>
+        <input type="file" id="Profile" name="Profile" accepts="image/*" required><br><br>
+        <input type="submit" value="Upload">
+    </fieldset>
+    <br><br>
+    <input type="button" value="Submit"></button>
+
+
+    </form>
+    
+</body>
+</html>
